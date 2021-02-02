@@ -1,0 +1,40 @@
+.content {
+  background-color: #313335;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em 2em;
+  justify-content: center;
+  margin: 1em auto;
+  width: 90%;
+}
+
+.card {
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image {
+  margin: 0;
+  max-height: 200px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__title {
+  margin: 0;
+  padding: 0;
+}
+
+.card__capture {
+  margin: 0;
+  padding: 0;
+}
